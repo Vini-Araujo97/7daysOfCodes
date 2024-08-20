@@ -1,0 +1,237 @@
+:root {
+    --cinza-principal: #3A404E; 
+    --grey-white: #EAECF0; 
+    --vermelho-escuro: #8E2424; 
+    --cinza-secundario: #667085;
+    --branco-botao: white;
+    --fonte-principal: "Inter" 
+     
+
+}
+
+body {
+    color: var(--cinza-secundario);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    padding: 1rem 0;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: var(--cinza-secundario);
+    margin-top: 0.5em;
+}
+.cabecalho__link a {
+    text-decoration: none;
+    color: var(--cinza-secundario);
+    margin-right: 2em;
+}
+
+.container__imagem {
+    text-align: center;
+    align-items: center;
+    height: 3%;
+    justify-items: center;
+}
+
+.container__botao {
+    background-color: var(--branco-botao);
+    border-radius: 5px;
+    padding: 0.8em 1rem;
+    color: var(--cinza-principal);
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.botao__secundario {
+    background-color: var(--vermelho-escuro);
+    color: var(--branco-botao);
+    cursor: pointer;
+}
+
+.container__cabecalho {
+    text-align: center;
+    padding: 5em;
+}
+
+.cabecalho__subtitulo {
+    color: var(--vermelho-escuro);
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+
+.cabecalho__titulo {
+    font-size: 48px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.cabecalho__texto {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 17em;
+    color: var(--cinza-secundario);
+    font-weight: 300;
+}
+
+.flexbox__container {
+    display: flex;
+    padding: 0.8em;
+    text-align: left;
+    margin: 0 5em;
+}
+
+.flex__projetos {
+    display: block;
+    text-align: left;
+    width: 50%;
+    margin: 0 4em;
+}
+
+
+.flex__titulo {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho-escuro);
+}
+.flex__subtitulo {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;   
+}
+
+.flex__texto {
+    font-size: 16px;
+    color: var(--cinza-secundario);
+    font-weight: 300;
+}
+
+.flexbox__secundario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+}
+
+.subtitulo__secundario {
+    color: var(--vermelho-escuro);
+    background-color:hsla(21, 100%, 54%, 0.07);
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 0.5em;
+    font-size: 16px;
+}
+
+.titulo__secundario {
+    color: black;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.flex__imagem {
+    margin-top: 3em;
+    max-width: 100%;
+    width: 90%;
+    height: 50%;
+}
+
+.secundario__vagas {
+    display: block;
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+
+.vagas__titulo {
+    font-size: 20px;
+    margin-bottom: 2em;
+    margin-top: 3em;
+    
+}
+
+.vagas__descricao {
+    display: inline-block;
+}
+
+.vagas__post {
+    background: local;
+    background-color: transparent;
+    border: 1px solid var(--grey-white);
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: 1.5em;
+}
+
+.comentarios {
+    background-color:hsla(21, 100%, 54%, 0.07);
+    border-radius: 10px;
+    margin: 6em 8em;
+}
+
+.comentarios__titulo {
+    color: var(--vermelho-escuro);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.comentarios__descricao {
+    font-size: 38px;
+    font-weight: 500;
+    color: black;
+    margin: 1em 3em;
+}
+
+.nome__imagem {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1em 0;
+}
+
+.descricao__imagem {
+    color: var(--cinza-secundario);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.rodape {
+    background-color: #F9FAFB;
+}
+
+.rodape__input {
+    padding: 0.7em 1em;
+    border: 1px solid var(--grey-white) ;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: var(--cinza-secundario);
+    font-size: 16px;
+    width: 20%;
+    height: 20%;
+    margin-top: 1em; 
+}
+
+.rodape__container {
+    margin-bottom: 4em;
+}
+
